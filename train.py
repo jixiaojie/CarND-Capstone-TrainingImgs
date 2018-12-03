@@ -113,8 +113,8 @@ def train(X_train, X_test, Y_train, Y_test, epoch = 5):
             print num, " train_accuracy: ", train_accuracy
 
             num += 1
-        test_accuracy = sess.run([accuracy] , feed_dict={x: X_test, y_: Y_test, keep_prob: 1.0})
-        print num, "-----Test_accuracy: ", test_accuracy
+    test_accuracy = sess.run([accuracy] , feed_dict={x: X_test, y_: Y_test, keep_prob: 1.0})
+    print num, "-----Test_accuracy: ", test_accuracy
 
 
     save_path = saver.save(sess, 'model/model.ckpt')
