@@ -1,4 +1,5 @@
 # CarND-Capstone-TrainingImgs
+### 1.Images(2018-12-01):
 #### SimulatorTrack1_Classified_Imgs
 RED: 706   
 YELLOW: 66   
@@ -12,6 +13,7 @@ test: 297
    
    
    
+### 2. a bit of py scripts(2018-12-03) 
 #### Functions in train.py
 get_traindata() # read image from disk into 2 python lists.  
 train() # a cnn to test data   
@@ -39,6 +41,7 @@ result:
 121 -----Test_accuracy:  [0.85483873]  
    
    
+### 3. Manual annotation(2018-12-03)
 ####  Add 60 simulator image annotations manually (use labelimg,  20 XMLs per traffic light color) for test, if test is ok, label image else. 
    
 label file folder:   
